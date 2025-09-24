@@ -1,0 +1,89 @@
+
+.navbar {
+    width: 350px;  
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+
+}
+body { background-image: url(logo.png);
+        background-repeat: none;
+        background-size:cover;
+        background-attachment: fixed; }
+
+
+ #etusivulogo {
+    margin-left: 200px;
+    width: 1000px;
+    height: 1000px;
+ }
+
+
+h1 {color:rgb(242, 171, 171);
+    font-size: 11vw;
+    text-align: center;
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#logo {
+      position: fixed;   /* kiinnittää kuvan suhteessa sivuun */
+      top: 30px;            /* etäisyys ylhäältä */
+      left: 50px;           /* etäisyys vasemmalta */
+      width: 20%;         /* kuvan leveys pieneksi */
+      max-width: 240px;
+      height: auto;         /* korkeus skaalaa suhteessa */
+      z-index: 1000;
+    }
+
+  
+      
+            
+
+
+
+/*#etusivulogo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background: rgb(245, 220, 207);
+}
+
+#etusivulogo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60vmin;   
+    height: 50vmin;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('UniikkiUurastusetusivu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.navbar {
+    position: relative;
+    z-index: 2; 
+    width: 350px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+*/
+
+    
+
+
+      
+      
